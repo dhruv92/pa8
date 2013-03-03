@@ -1,12 +1,10 @@
-vous-you
+Vous-You
 devinez-guess
 que-that
-je-I
-ai-have
-consenti-consented
+j'ai-I have
+consenti,-consented,
 vous-you
-ne-not
-imaginez
+n'imaginez-not imagine
 pas-not
 combien-how much
 elle-she
@@ -14,7 +12,7 @@ me-me
 cajole-cajole
 depuis-since
 ce-this
-moment-moment
+moment,-moment,
 surtout-especially
 elle-she
 est-is
@@ -27,62 +25,59 @@ ses-his
 prières-prayers
 et-and
 sa-her
-messe-mass
+messe.-mass.
 se-self
 doute-doubt
 de-of
 la- the
 divinité-divinity
 que-that
-y-there
-adore-adore
+j'y-there
+adore.-adore.
 voilà-that's why
 donc-therefore
 depuis-since
 quatre-four
-jours-days
+jours,-days,
 livré-delivered
 une-a
 passion-passion
-forte-strong
+forte.-strong.
 vous-you
 savez-know
 si-if
 je-I
 désire-desire
-vivement-vividly
+vivement,-vividly,
 dévore-devour
 les-the
-obstacles-obstacles
+obstacles:-obstacles:
 mais-but
 ce-this
 que-how
-ignorez-not know 
-ce-this
-est-is
+ignorez,-not know, 
+c'est-it is
 la-the
 solitude-solitude
 ajoute-add
 ardeur-ardor
 du-from
-désir-desire
-ai-have
+désir.-desire.
+n'ai-don't have
 plus-more
-que-that
-une-a
-idée-idea
+qu'une-only one
+idée;-idea;
 pense-think
 le-the
-jour-day
+jour,-day,
 et-and
 rêve-dream
-nuit-night
+nuit.-night.
 bien-well
 besoin-need
-de-to
-avoir-have
+d'avoir-to have
 cette-this
-femme-woman
+femme,-woman,
 pour-to
 me-me
 sauver-save
@@ -92,24 +87,23 @@ d'-of
 j'-I
 en-from there
 être-to be
-amoureux-in love
+amoureux:-in love:
 car-because
 où-where
 mène-lead
 un-a
 désir-desire
-contrarié-vexed
+contrarié?-vexed?
 Ô-Ô
 délicieuse-delicious
-jouissance-pleasure
-t'-you
-implore-implore
+jouissance!-pleasure!
+t'implore-implore you
 pour-for
 mon-my
 bonheur-happiness
 et-and
 surtout-especially
-repos-rest
+repos.-rest.
 que-that
 nous-we
 sommes-are
@@ -119,7 +113,7 @@ femmes-women
 se-self
 défendent-defend
 si-if
-mal-bad
+mal!-bad!
 nous-we
 serions-would be
 auprès-close to
@@ -128,7 +122,7 @@ elles-they
 que-that
 de-of
 timides-timid
-esclaves-slaves
+esclaves.-slaves.
 dans-in
 ce-this
 moment-moment
@@ -137,28 +131,28 @@ sentiment-feeling
 de-of
 reconnaissance-recognition
 pour-for
-faciles-easy
+faciles,-easy,
 qui-which
 m'-me
 amène-bring
 naturellement-naturally
 vos-your
-pieds-feet
+pieds.-feet.
 prosterne-prostrate
 pour-for
 obtenir-obtain
 mon-my
-pardon-pardon
+pardon,-pardon,
 et-and
 finis-end
 cette-this
 trop-too
 longue-long
-lettre-letter
-adieu-farewell
+lettre.-letter.
+adieu,-farewell,
 ma-my
 très-very
 belle-pretty
-amie-friend
+amie:-friend:
 sans-without
-rancune-hard feelings
+rancune.-hard feelings.
