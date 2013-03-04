@@ -28,12 +28,20 @@ def apply_rules(english):
         if "NN" in key[1] and val[1]=='JJ':
           swap(words, key[0],  val[0])
 
+    #rule for indeterminate plural noun following 'the' -> need to remove 'the' (as in "we are lucky that women defend themselves")
+    #instead of "we are lucky that the women defend themselves"
+        if val[1]=='NNS' and key[0]=='the':
+            ind= words.index(val[0])
+            words.pop(ind-1)
+
     for word in words : 
         if word =='i':
             word= 'I'
         english_new+= word+ ' '
 
+
     return english_new
+
 
 def apply_rules_french(text, my_translations, adjectives):
     english_text=''
@@ -99,6 +107,7 @@ def main():
     english_text= apply_rules_french(text,my_translations, adjectives)
     english_text= apply_rules(english_text)
   
+    print english_text
 
 
 if __name__ == '__main__':
