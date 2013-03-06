@@ -1,3 +1,9 @@
+
+Text for translation: Excerpt from the 1782 Liaisons Dangeureuses ( Dangerous Liaisons) by Choderlos de Laclos:
+
+Vous devinez que j'ai consenti, vous n'imaginez pas combien elle me cajole depuis ce moment, combien surtout elle est édifiée de me voir régulièrement à ses prières et à sa Messe. Elle ne se doute pas de la Divinité que j'y adore. Me voilà donc, depuis quatre jours, livré à une passion forte. vous savez si je désire vivement, si je dévore les obstacles: mais ce que vous ignorez, c'est combien la solitude ajoute à l'ardeur du désir. Je n'ai plus qu'une idée; j'y pense le jour, et j'y rêve la nuit. J'ai bien besoin d'avoir cette femme, pour me sauver du ridicule d'en être amoureux: car où ne mène pas un désir contrarié? Ô délicieuse jouissance! Je t'implore pour mon bonheur et surtout pour mon repos. Que nous sommes heureux que les femmes se défendent si mal! nous ne serions auprès d'elles que de timides esclaves. J'ai dans ce moment un sentiment de reconnaissance pour les femmes faciles, qui m'amène naturellement à vos pieds. Je m'y prosterne pour obtenir mon pardon, et j'y finis cette trop longue Lettre. Adieu, ma très belle amie: sans rancune.
+
+
 Issues about Franco-English translation:
 
 - Nature of French sentence construction is different than the English one.
@@ -42,4 +48,42 @@ Interestingly enough, the plural form of the pronouns do not mark gender. Theref
 
 - Reflective particules are also very prevalent in the French language, with reflexive verbs. For example, there is a cohort of verbs like 'se regarder, se parler, se trouver...' which use this reflexive 'se', which expresses an interaction with oneself or with another person (these are respectively 'to look at oneself/each other', 'to talk to each other/ to oneself', 'to find oneself somewhere'). The 'se' alone has no real translation, it needs its context to best determine what the action is, and if it is self reflexive or with another person ('I find myself at a crossroad in my life' for example). The French use these reflexive verbs a lot, and some may not readily have a translation. It is common to explain a decision in French by saying to someone 'Je me suis dit que...' which is literally translated as 'I told myself', but which is more accurately translated as 'I figured...'
 
+The rules we used: 
+
+1- We wanted to make the difference between conditional si ('if') and comparative si ('so'). We checked to see whether the word that followed 'si' in the French version was an adjective and, if so, changed the 'si' from 'if' to 'so' in the english version. This enabled us to determine whether preposition 'si' wass being used as a conditional or as comparative ( difference between translating to 'if' or to 'so'). If followed by an adjective, it is the comparative 'so', and if not, it is the conditional 'if'. We used a comprehensive gazeteer of french adjectives. 
+Example : Instead of ' we are lucky that women defend themselves if badly' -> 'we are lucky that women defend themselves so badly' (the french word for 'badly' is the adjective 'mal').
+
+2- We do not translate the particular 'pas', since otherwise we get double negation in English. We need to account for the fact that 'ne pas' is actually one negation, and not two separate negations. 
+Example : We were gettting 'what you not know not' (direct translation of 'ne savez pas') so we deleted the second one to get 'What you not know'. 
+We then have a rule to add the particule 'do' before the 'not' which precedes present tense verbs. 
+ 
+ 3-A related rule for the negation is that if the French form is n apostrophe verb, then the negation in Englishbecomes 'cannot'. For example here, the correct translation for the French "Je n'imagine pas" is 'I cannot imagine', whereas "I not imagine" is incorrect
+   
+4- The reflexive 'se' is the same for everything in French (male / female/ singular/ plural) and it is attached to the verb as opposed to the subject, as in english. This yields a translation of 'les femmes se défendent' as 'women self defend' instead of 'women defend themselves'. We wrote a rule to fix that, by checking what ending the french word before 'self' has. If it's an 'e', we put 'herself', if it's an 's', we put themselves, and otherwise it's 'himself'
+We then get 'women defend themselves', since in French the original was 'les femmes se defendent' (the plural form was used).
+
+5- In French, the word 'pour' is ambiguous, and can mean either 'to' or 'for' depending on the word that follows . 
+We have a rule to chek cases where the first word is'for', and to see what follows it, in order to disambiguate between the two cases. If the word that follows is a verb, we change the 'for' to a 'to'
+
+6 - We resolve the French ambiguity stemmed by the preposition 'de', which can mean 'to' ( as in 'surprised to see me') or 'of' like ('made of wood') by checking whether the first word of the tuple is a verb or not. If the first word is a verb and it is followed by 'of', we switch the 'of' to a 'to'.
+
+7 -  In french, the preposition 'me' comes before the verb, so it would be "to me save" instead of 'to save me'. Therefore, a simple rule we made was to swap the two if we had 'me' + verb (so that effectively we would have verb+me).
+
+8- We have a rule for indeterminate plural nouns which follow 'the'. In these cases, we need to remove 'the' (as in "we are lucky that women defend themselves", instead of "we are lucky that the women defend themselves". French always has determinants in front of every noun, but in some cases in English (when the noun is indefinite and refers to all members of a group instead of one in particular, like in this case "women" in general) the determinant is not needed.
+
+9- We add 'ly' to an adjective that ends a sentence. In French, the adverb and the adjectif form is the same. Therefore 'se défendent mal' translates to 'defend themselves bad' or 'defend themselves badly', altough only the second version is correct in english. We therefore need to transform the adjectif 'bad' to an adverb.
+
+10- Swap consecutive nouns and adjectives since French and English have a different ordering for these. For example, in our excerpt, 'une passion forte' in French translates to 'a passion strong'. We therefore swap the two words to get the grammatical English version 'a strong passion'.
+
+Error analysis : 
+
+Google Translate : 
+
+I guess you made​​, you can not imagine how she coaxes from that moment, how it is built especially to see me regularly to his prayers and his Messe. She did not doubt the Divinity that I adore. So here I am, four days ago, delivered a strong passion. you know if I am anxious, if I devour obstacles, but what you do not know is how much loneliness adds to the heat of desire. I do not have an idea, I think the day, and I dream at night. I really need to have this woman to save me from ridiculous to be in love: because when one does not lead thwarted desire? Oh delicious enjoyment! I beg you for my happiness and especially for my rest. We are happy that women defend themselves so badly! we would be with them as timid slaves. I feel in this moment of recognition for women easy, brings me naturally to your feet. I prostrate myself for my forgiveness, and I finished this long letter. Farewell, my lovely friend, without rancor.
+
+And an official book translation : 
+
+You can guess that I have agreed. You cannot imagine how she has cajoled me since then, above all how edified she is at my regularity at prayers and mass. She has no suspicion what divinity I adore there. Here am I then for the last four days, in the throes of a doughty passion. You know how keen are my desires, how I brush aside obstacles to them: but what you do not know is how solitude adds ardor to desire. I have but one idea; I think of it all day and dream of it all noght. It is very necessary that I should have this woman , if I would save myself from the ridicule of being in love with her: for whither may not a thwarted desire lead one? O delicious pleasure! I implore thee for my happiness and above all for my repose. How lucky it is for us that women defend themselves so badly! Else we should be to them no more than timid slaves. At present I have a feeling of gratitude for yielding women which brinbgs me so naturally to your feet. I prostrate myself to implore your pardon, and so conclude this too long epistle. Adieu, my fairest friend: without hard feelings.
+
+Although the book translation is slightly more interprative and less true to the original French, it is a good benchmark for us to compare both our translation and the google translate one. Indeed, while the google translate version is more grammatical than ours, a lot of the meaning is off, and some things just do not even come close to meaning anything similar to the French text, as in the very first part of the first sentence ' I guess you made', which is meant to be 'You can guess that I have'.
 

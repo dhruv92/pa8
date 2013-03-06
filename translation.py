@@ -81,6 +81,9 @@ def apply_rules(english, translation, english_adjectives):
                 swap(words,second_word[0], 'themselves', x)
               else:
                 swap(words,second_word[0], 'himself',x)
+         
+        if first_word[0]=='not':
+            words[x]= 'do not'
 
     for word in words : 
         if word =='i':
@@ -115,8 +118,6 @@ def apply_rules_french(text, my_translations, adjectives):
                     # If followed by an adjective, it is the comparative 'so', and if not, it is the conditional 'if'
                     if word == 'si' and next_word in adjectives:
                         translation='so'
-
-
 
                 english_text+=translation + ' '
     return english_text
