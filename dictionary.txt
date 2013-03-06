@@ -60,7 +60,7 @@ c'est-it is
 la-the
 solitude-solitude
 ajoute-add
-ardeur-ardor
+l'ardeur-the ardor
 du-from
 désir.-desire.
 n'ai-don't have
@@ -117,8 +117,7 @@ mal!-bad!
 nous-we
 serions-would be
 auprès-close to
-d'-of
-elles-they
+d'elles-from them
 que-that
 de-of
 timides-timid
@@ -133,9 +132,9 @@ reconnaissance-recognition
 pour-for
 faciles,-easy,
 qui-which
-m'-me
-amène-bring
+m'amène-brings me
 naturellement-naturally
+à-to
 vos-your
 pieds.-feet.
 prosterne-prostrate
