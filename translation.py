@@ -83,7 +83,32 @@ def apply_rules(english, translation, english_adjectives):
                 swap(words,second_word[0], 'himself',x)
          
         if first_word[0]=='not':
-            words[x]= 'do not'
+            words[x]= 'cannot'
+
+    for x in range (len(words)-2): # english rules now
+        tag = nltk.pos_tag((words [x], words [x+1]))
+        first_word = tag[0]
+        second_word = tag[1]
+
+        #Enlgish conjugation rules for present tense
+        if first_word[0] == 'she' or first_word[0] == 'he':
+            if second_word[0][-1:] == 'e' and second_word[1]=='VBD':
+                words[x+1] = second_word[0] + 's'
+
+        #English idiom isn't 'there think', but 'think of it'
+        if first_word[0] == "there" and (second_word[0] == 'think' or second_word[0] == 'dream'): 
+            words[x] = second_word[0]
+            words[x + 1] = "of it"
+
+        #English idiom changes 'that of' to 'but'
+        if first_word[0] == 'that' and second_word[0] == 'of':
+            words[x] = 'but'
+            words[x+1] = ''
+
+        #In english, we say 'verb themselves' not 'themselves verb'
+        if first_word[0] == 'themselves' and second_word[1] == 'VBP':
+            words[x] = second_word[0]
+            words[x+1] = first_word[0]
 
     for word in words : 
         if word =='i':
